@@ -1,10 +1,6 @@
 @CHARSET "UTF-8";
 /* CSS Document */
-<<<<<<< HEAD
 @import url(https://fonts.googleapis.com/css?family=PT+Sans);
-=======
-@import url(http://fonts.googleapis.com/css?family=PT+Sans);
->>>>>>> origin/master
 body,html {
 	height: 100%;
 }
@@ -25,7 +21,6 @@ body {
 	
 }
 .mob-only {
-<<<<<<< HEAD
 	display: none;
 }
 .font_nm {
@@ -37,19 +32,6 @@ body {
 }
 .login_page {
 	width: 100%;
-=======
-	display:none;
-}
-.font_nm {
-	font-weight:normal;
-}
-#body_wrap {
-	width:100%;
-	height:100%;
-}
-.login_page {
-	width:100%
->>>>>>> origin/master
 }
 header {
 	box-shadow: 1px 1px 1px #ccc;
@@ -76,17 +58,12 @@ nav li img {
 }
 .login_wrap {
 	max-width: 865px;
-<<<<<<< HEAD
 	margin: 10px auto 0;
-=======
-	margin:10px auto 0;
->>>>>>> origin/master
 	padding: 3% 13% 1%;
 	box-sizing: border-box;
 	border: 1px solid #ccc;
 	border-radius: 5px;
 	border-bottom: none;
-<<<<<<< HEAD
 	border-bottem-left-radius: 0;
 	border-bottem-right-radius: 0;
 }
@@ -97,18 +74,6 @@ nav li img {
 }
 .login_wrap fieldset {
 	margin-bottom: 5%;	
-=======
-	border-bottom-left-radius: 0;
-	border-bottom-right-radius: 0;
-}
-.logIn_tit {
-	front-size: 20px;
-	front-weight: bold;
-	margin-bottom: 3%;
-}
-.login_wrap fieldset {
-	margin-bottom: 5%;
->>>>>>> origin/master
 }
 .login_wrap fieldset input {
 	width: 230px;
@@ -120,7 +85,6 @@ nav li img {
 .login_wrap input:focus {
 	background-color: blanchedalmond;
 }
-<<<<<<< HEAD
 .login_wrap .field + .field {
 	margin-top: 2%;	
 }
@@ -129,33 +93,15 @@ nav li img {
 	align-items: center;	
 }
 .login_wrap .logInbtn_area button {
-=======
-.login_wrap field + .field {
-	margin-top: 2%;
-}
-.login_wrap .logInbtn_area {
-	display: flex;
-	align-item: center;
-}
-.login_wrap .logInbtn_area buttom {
->>>>>>> origin/master
 	float: left;
 	border-radius: 7px;
 	background-color: darkblue;
 	color: #fff;
-<<<<<<< HEAD
 	font-weight: bold;
 	padding: 1% 3%;
 	box-sizing: border-box;
 	width: 85px;
 	height: 35px;
-=======
-	front-weight: bold;
-	padding: 1% 3%;
-	box-sizing: border-box;
-	width: 85px;
-	height: 35 px;
->>>>>>> origin/master
 }
 .login_wrap .subchck {
 	float: left;
@@ -174,10 +120,7 @@ nav li img {
 		padding: 1.5% 10%;
 		line-height: 2;
 		box-sizing: border-box;
-<<<<<<< HEAD
 		background-color: #f3f3f3;
-=======
->>>>>>> origin/master
 		border: 1px solid #ccc;
 		border-radius: 5px;
 		border-top: none;
@@ -189,39 +132,23 @@ nav li img {
 			display: none;
 		}
 		.mob-only {
-<<<<<<< HEAD
 			display: block;
-=======
-			display: black;
->>>>>>> origin/master
 		}
 		#body_wrap {
 			background-color: #e8e8e8;
 		}
 		nav {
 			padding: 3% 0;
-<<<<<<< HEAD
 			background: #2e2e2e; /* For browsers that do not support grdients*/
 			background: -webkit-linear-gradient(#4a4947, #2f2f2f, #131313); /* For Safari 5.1 to 6.0 */
 			background: -o-linear-gradient(#4a4947, #2f2f2f, #131313); /* For Opera 11.1 to 12.0 */
-=======
-			background: #2e2e2e; /* For browsers that do not support gradients*/
-			background: -webkit-lingear-gradient(#4a4947, #2f2f2f, #131313); /*For Safari 5.1 to 6.0 */
-			background: -o-lingear-gradient(#4a4947, #2f2f2f, #131313); /* For Opera 11.1 to 12.0 */
->>>>>>> origin/master
 			background: -moz-linear-gradient(#4a4947, #2f2f2f, #131313); /* For Firefox 3.6 to 15 */
 			background: linear-gradient(#4a4947, #2f2f2f, #131313); /* Standard syntax */
 		}
 		nav li.mob-only {
-<<<<<<< HEAD
 			font-weight: bold;
 			color: #ff;
 			font-size: 22px;
-=======
-			front-weight: bold;
-			color: #ff;
-			front-size: 22px;
->>>>>>> origin/master
 		}
 		nav li img {
 			padding-right: 3%;
@@ -233,31 +160,20 @@ nav li img {
 			background-color: #e8e8e8;
 		}
 		.logIn_tit {
-<<<<<<< HEAD
 			font-size: 15px;
-=======
-			front-size: 15px;
->>>>>>> origin/master
 			color: #999;
 			padding-bottom: 2%;
 			margin-bottom: 3%;
 		}
 		.logIn_tit button {
-<<<<<<< HEAD
 			width: 25px;
-=======
-			width: 25 px;
->>>>>>> origin/master
 			border-radius: 7px;
 			border: 1px solid #999;
 			padding: 1px 1px 2px 1px;
 		}
-<<<<<<< HEAD
 		.login_wrap fieldset {
 			margin-bottom: 3%;
 		}
-=======
->>>>>>> origin/master
 		.login_wrap fieldset input {
 			width: 100%;
 			box-sizing: border-box;
@@ -266,11 +182,7 @@ nav li img {
 			border-top-right-radius: 5px;
 			border-bottom-color: #f1f1f1;
 		}
-<<<<<<< HEAD
 		.login_wrap fieldset .field + .field input {
-=======
-		.login_wrap fieldset .feild + .field input {
->>>>>>> origin/master
 			border-top: none;
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
@@ -278,7 +190,6 @@ nav li img {
 			border-bottom-right-radius: 5px;
 			border-bottom-color: #ccc;
 		}
-<<<<<<< HEAD
 		/*Start from here.*/
 		.login_wrap .field + .field {
 			margin-top: 0;
@@ -296,40 +207,18 @@ nav li img {
 			background: #ffcc44; /* For browsers that do not support gradients */
 			background: -webkit-linear-gradient(#feea63, #ffcc44, #dc9219); /* For Safari 5.1 to 6.0*/
 			background: -o-linear-gradient(#feea63, #ffcc44, #dc9219); /* For Opera 11.1 to 12.0 */
-=======
-		.login-wrap .field + .field {
-			margin-top: 0;
-		}
-		.login-wrap .loginInbtn-area {
-			display: block;
-			tent-align: center;
-		}	
-		.login-wrap .logInbtn_area button {
-			float: none;
-			width: 100%;
-			front-size: 16px;
-			border-radius: 7px;
-			background: #ffcc44; /* For browsers that do not support gradients*/
-			background: -webkit-lingear-gradient(#feea63, #ffcc44, #dc9219); /*For Safari 5.1 to 6.0 */
-			background: -o-lingear-gradient(#feea63, #ffcc44, #dc9219); /* For Opera 11.1 to 12.0 */
->>>>>>> origin/master
 			background: -moz-linear-gradient(#feea63, #ffcc44, #dc9219); /* For Firefox 3.6 to 15 */
 			background: linear-gradient(#feea63, #ffcc44, #dc9219); /* Standard syntax */
 			color: #2a3922;
 			padding: 2.5% 1%;
 		}
-<<<<<<< HEAD
 		.login_wrap .subchck {
-=======
-		.login-wrap .subchck {
->>>>>>> origin/master
 			float: none;
 			width: 100%;
 			margin: 5% 0 0;
 			padding-bottom: 3%;
 			border-bottom: 1px solid #d8d8d8;
 		}
-<<<<<<< HEAD
 		.login_wrap .subchck a, .pc-gray,
 			footer a {
 				font-weight: bold;
@@ -343,19 +232,4 @@ nav li img {
 			background-color: #e8e8e8;
 			border: none;
 		}
-=======
-		.login-wrap .suchck a, .pc-gray,
-		 	footer a {
-		 		front-weight:bold;
-		 		color: #737373;
-		 	}
-		 footer {
-		 	width: 100%;
-		 	text-align: center;
-		 	padding: 1.5% 0;
-		 	line-height: 2.5;
-		 	bakcground-color: #e8e8e8;
-		 	border: none;
-		 }
->>>>>>> origin/master
 	}
