@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @CHARSET "EUC-KR";
 /* CSS Document */
 @import url(https://fonts.googleapis.com/css?family=PT+Scans);
@@ -243,3 +244,95 @@ nav li img {
 	}
 	}
 
+=======
+Anna
+
+
+Search Drive
+
+Drive
+.
+Folder Path
+hookey
+css
+NEW 
+Folders and views
+My DriveCollapsed
+Shared with me
+Google Photos
+Recent
+Starred
+Trash
+3 GB of 15 GB used
+Upgrade storage
+Get Drive for Mac
+Name
+Owner
+Last modified
+File size
+
+style.css
+WOOHYUN JO
+Feb 6, 2016WOOHYUN JO
+5 KB
+Not selected
+
+reset.css
+WOOHYUN JO
+Feb 6, 2016WOOHYUN JO
+1 KB
+Selected
+All selections cleared 
+
+@charset "utf-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+>>>>>>> origin/master
