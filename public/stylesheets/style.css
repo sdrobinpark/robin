@@ -1,0 +1,271 @@
+Anna
+
+
+Search Drive
+
+Drive
+.
+Folder Path
+hookey
+css
+NEW 
+Folders and views
+My DriveCollapsed
+Shared with me
+Google Photos
+Recent
+Starred
+Trash
+3 GB of 15 GB used
+Upgrade storage
+Get Drive for Mac
+Name
+Owner
+Last modified
+File size
+
+style.css
+WOOHYUN JO
+Feb 6, 2016WOOHYUN JO
+5 KB
+Selected
+
+reset.css
+WOOHYUN JO
+Feb 6, 2016WOOHYUN JO
+1 KB
+Not selected
+All selections cleared 
+
+@charset "utf-8";
+/* CSS Document */
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+body,html {
+    height: 100%;
+}
+a {text-decoration: none;}
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.1;
+}
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.pc-only {
+}
+.mob-only {
+    display: none;
+}
+.font_nm {
+    font-weight: normal;
+}
+
+#body_wrap {
+    width: 100%;
+    height: 100%;
+}
+.login_page {
+    width: 100%;
+}
+header {
+    box-shadow: 1px 1px 1px #ccc;
+}
+nav {
+    max-width: 865px;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+nav li {
+    display: inline-block;
+    vertical-align: middle;
+}
+nav li + li {
+    padding-left: 20px;
+}
+nav a.link_home {
+    display: inline-block;
+}
+nav li img {
+    width: 30px;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+.login_wrap {
+   max-width: 865px;
+    margin: 10px auto 0;
+    padding: 3% 13% 1%;
+    box-sizing: border-box;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+    border-bottom: none;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.logIn_tit {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+.login_wrap fieldset {
+    margin-bottom: 5%;
+}
+.login_wrap fieldset input {
+    width: 230px;
+    padding: 3px 2px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+}
+.login_wrap input:focus {
+    background-color: blanchedalmond;
+}
+.login_wrap .field + .field {
+    margin-top: 2%;
+}
+.login_wrap .logInbtn_area {
+    display: flex;
+    align-items: center;
+}
+.login_wrap .logInbtn_area button {
+    float: left;
+    border-radius: 7px;
+    background-color: darkblue;
+    color: #fff;
+    font-weight: bold;
+    padding: 1% 3%;
+    box-sizing: border-box;
+    width: 85px;
+    height: 35px;
+}
+.login_wrap .subchck {
+    float: left;
+    margin-left: 1%;
+}
+.login_wrap .subchck a,
+    footer a {
+        color: darkblue;
+    }
+.pc-gray {
+    color: #8f969e;
+}
+footer {
+    max-width: 865px;
+    margin: 0 auto;
+    padding: 1.5% 10%;
+    line-height: 2;
+    box-sizing: border-box;
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+   border-radius: 5px;
+    border-top: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+@media only screen and (max-width: 640px) {
+    .pc-only {
+        display: none;
+    }
+    .mob-only {
+        display: block;
+    }
+    #body_wrap {
+        background-color: #e8e8e8;
+    }
+    nav {
+        padding: 3% 0;
+        background: #2e2e2e; /* For browsers that do not support gradients */
+background: -webkit-linear-gradient(#4a4947, #2f2f2f, #131313); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(#4a4947, #2f2f2f, #131313); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(#4a4947, #2f2f2f, #131313); /* For Firefox 3.6 to 15 */
+background: linear-gradient(#4a4947, #2f2f2f, #131313); /* Standard syntax */
+    }
+    nav li.mob-only {
+        font-weight: bold;
+        color: #fff;
+        font-size: 22px;
+    }
+    nav li img {
+        padding-right: 3%;
+        vertical-align: bottom;
+    }
+    .login_wrap {
+    margin: 0;
+    padding: 5% 5% 0;
+    background-color: #e8e8e8;
+}
+.logIn_tit {
+    font-size: 15px;
+    color: #999;
+    padding-bottom: 2%;
+    margin-bottom: 3%;
+}
+.logIn_tit button {
+    width: 25px;
+    border-radius: 7px;
+    border: 1px solid #999;
+    padding: 1px 1px 2px 1px;
+}
+.login_wrap fieldset {
+    margin-bottom: 3%;
+}
+.login_wrap fieldset input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 3%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-color: #f1f1f1;
+}
+.login_wrap fieldset .field + .field input {
+    border-top: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-color: #ccc;
+}
+.login_wrap .field + .field {
+    margin-top: 0;
+}
+.login_wrap .logInbtn_area {
+    display: block;
+    text-align: center;
+}
+.login_wrap .logInbtn_area button {
+    float: none;
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    border-radius: 7px;
+    background: #ffcc44; /* For browsers that do not support gradients */
+background: -webkit-linear-gradient(#feea63, #ffcc44, #dc9219); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(#feea63, #ffcc44, #dc9219); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(#feea63, #ffcc44, #dc9219); /* For Firefox 3.6 to 15 */
+background: linear-gradient(#feea63, #ffcc44, #dc9219); /* Standard syntax */
+    color: #2a3922;
+    padding: 2.5% 1%;
+}
+.login_wrap .subchck {
+    float: none;
+    width: 100%;
+    margin: 5% 0 0;
+    padding-bottom: 3%;
+    border-bottom: 1px solid #d8d8d8;
+}
+.login_wrap .subchck a, .pc-gray,
+    footer a {
+        font-weight: bold;
+        color: #737373;
+    }
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 1.5% 0;
+    line-height: 2.5;
+    background-color: #e8e8e8;
+    border: none;
+}
+    }
