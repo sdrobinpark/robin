@@ -1,0 +1,53 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Hookey">
+<meta name="keywords" content="Hookey,signup">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Hookey</title>
+	<link rel="stylesheet" href="@routes.Assets.at("stylesheets/signup/reset.css")">
+	<link rel="stylesheet" href="@routes.Assets.at("stylesheets/signup/style.css")">
+</head>
+
+<body>
+    <div id="body_wrap">
+       <div class="signup_page">
+           <header>
+               <nav>
+               <ul>
+                   <li class="pc-only home"><a href="/" class="link_home"><img src="@routes.Assets.at("images/hookey/logo.png")" alt="logo">Home</a></li>
+                   <li class="pc-only about"><a href="#">About</a></li>
+                   <li class="mob-only"><a href="../"><img src="@routes.Assets.at("images/hookey/logo.png")" alt="logo"></a>Sign up</li>               </ul>
+            </nav>
+           </header>
+
+               <div class="signup_wrap">
+               <p class="pc-only">Sign Up</p>
+               <form action="" onsubmit="return false">
+                <label>First name</label>
+                    <input placeholder="What is your first name?" type="text" name="FirstName">
+                <label>Last name</label>
+                    <input placeholder="What is your last name?"  type="text" name="LastName">
+                <label>Email</label>
+                    <input type="text" name="Email">
+                <label>Password</label>
+                    <input type="password" name="PassWord">
+                <label>Re-Password</label>
+                    <input type="password" name="RePassWord">
+                <label>Phone</label>
+                    <input type="text" name="Phone">
+                <label>Job Role</label>
+                    <input type="text" name="JobRole">
+                    <br>
+                   <button><span class="subbtn">Submit</span><span class="subbtn_hover">Go for it!</span></button>
+               </form>
+           </div><!--signup_wrap-->
+        <footer>
+        Copyright &copy; 2016 Hookey All Rights Reserved.
+        </footer>
+        </div><!--signup_page-->
+    </div><!--body_wrap-->
+</body>
+</html>
