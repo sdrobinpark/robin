@@ -17,6 +17,12 @@ libraryDependencies ++= Seq(
   javaWs
 )
 
+// The Typesafe repository
+resolvers ++= Seq(
+	"Typesafe repository" at "http://repo.typesafe.com/typesafe/releases/",
+	"google-sedis-fix" at "http://pk11-scratch.googlecode.com/svn/trunk"
+)
+
 // Play provides two styles of routers, one expects its actions to be injected, the
 // other, legacy style, accesses its actions statically.
 routesGenerator := InjectedRoutesGenerator
