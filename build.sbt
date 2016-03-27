@@ -7,6 +7,11 @@ lazy val root = (project in file(".")).enablePlugins(PlayJava)
 scalaVersion := "2.11.6"
 
 libraryDependencies ++= Seq(
+  "com.typesafe.play.modules" %% "play-modules-redis" % "2.4.1",
+  "commons-io" % "commons-io" % "2.3",
+  "org.glassfish" % "javax.json" % "1.0.4",
+  "com.amazonaws" % "aws-java-sdk" % "1.9.23",
+  "mysql" % "mysql-connector-java" % "5.1.8",
   javaJdbc,
   cache,
   javaWs
