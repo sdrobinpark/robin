@@ -13,5 +13,5 @@ GET		/login						controllers.User.login()
 ################################
 # Perspectives office network  #
 ################################
-GET		/officenetwork			controllers.WebPage.getIndex(url:String ?="officenetwork")
-GET		/officenetwork/signup	controllers.OfficeNetwork.getSignup()
+GET		/officenetwork/signup			controllers.OfficeNetwork.getSignup()
+GET		/officenetwork				controllers.WebPage.getIndex(url:String ?="officenetwork")

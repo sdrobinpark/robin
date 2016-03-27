@@ -5,7 +5,7 @@ import play.mvc.Result;
 import views.html.*;
 
 public class WebPage extends Controller{
-	public static Result getIndex(String url) {
+	public Result getIndex(String url) {
 		switch (url) {
 		case "csmanagement":
 			return ok(login.render());
@@ -13,7 +13,7 @@ public class WebPage extends Controller{
 			return ok(login.render());
 
 		default:
-			return ok(index.render());
+			return ok(lecture.render());
 		}
 		
 	}
